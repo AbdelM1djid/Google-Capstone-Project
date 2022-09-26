@@ -1,0 +1,11 @@
+Data Analysis Steps : 
+1. ASK : 1. How do annual members and casual riders use Cyclistic bikes differently?
+            2. Why would casual riders buy Cyclistic annual memberships?
+            3. How can Cyclistic use digital media to influence casual riders to become members?
+#Primary StakeHolders : - The Director of Marketing "Lily Moreno"
+                               - Cyclistic marketing analytics team
+                               - Cyclistic executive team
+#Business Task : Maximiszing the number of Annual Riders Through Converting Casual Riders 
+to become Members  (1st Deliverable ) 
+
+          1.How do annual members and casual riders use Cyclistic bikes differently?

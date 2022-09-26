@@ -1,0 +1,66 @@
+Data License Agreement : 
+Visit : https://ride.divvybikes.com/data-license-agreement
+. Original Data Location : "Original Trip Data" Folder
+. Analysis Data Location : "Trip Data" Folder
+. Total Size : 1,14 Go
+. Files Format : CSV
+. Number of Files : 13
+. Size Range :   18.5 MB ~ 150.4 MB
+Data integrity  : 
+- Divvy is Trusted source of data with free and full use of data for lawful purposes
+- Divvy's data collected by them which means its original 
+- contains all needed informations for the analysis
+-Current 2021 and 2022 data 
+Data use  : 
+the data contains informations about rides that happens each day and month by the 2
+Segments 'Member' and 'casual' , geographical data and rideable type , which what we need to understand the difference between
+them
+===================================================================
+before analysis : 
+. Total Number of Rows : 6629980 
+. Total Number of Columns : 13
+. Column Names : 
+0   ride_id             object 
+ 1   rideable_type       object 
+ 2   started_at          object 
+ 3   ended_at            object 
+ 4   start_station_name  object 
+ 5   start_station_id    object 
+ 6   end_station_name    object 
+ 7   end_station_id      object 
+ 8   start_lat           float64
+ 9   start_lng           float64
+ 10  end_lat             float64
+ 11  end_lng             float64
+ 12  member_casual       object 
+===================================================================
+After Analysis : 
+. Total Number of Rows : 6107260 
+. Total Number of Columns : 20
+. Column Names :  
+0   ride_id             object 
+ 1   rideable_type       object 
+ 2   started_at          object 
+ 3   ended_at            object 
+ 4   start_station_name  object 
+ 5   start_station_id    object 
+ 6   end_station_name    object 
+ 7   end_station_id      object 
+ 8   start_lat           float64
+ 9   start_lng           float64
+ 10  end_lat             float64
+ 11  end_lng             float64
+ 12  member_casual       object 
+ 13  Trip_Duration       float64
+ 14  Starting_hour       object 
+ 15  Ending_hour         object 
+ 16  Distance            float64
+ 17  month               int64  
+ 18  day                 object 
+ 19  year                int64
+ ===================================================================
+analysis Files : 
+. Excel Sample Data file - .xlsx
+. "Google Bike Case Study.ipynb" - python jupyter notebook 
+. "Tableau Visualizations"
+. PowerPoint Presentation  

@@ -1,0 +1,42 @@
+Tools used  : 
+- Excel , to view data 
+-Python to perform cleaning and analysis on huge data (since sql run slowly on my bad pc)
+-Tableau to create visualizations 
+-Power Point to clearly communicate the insights far from all technical stuff
+1# - Preparing The Data : 
+                  - Downloaded The data (zip Files) 
+                  - extracted the data into a floder (12 csv file) 
+                  - Renamed The Data / example : 2022_06_TripData
+                  - Made a Copy of The data into another floder  
+                  - Created a Metadata Document Containing all the data Basic Informations 
+                  - Combined the data into a 6.5+ million row dataset using a python script 
+                  - imported it into Python and generated a sample after calculating size of it using Confidence level of : 99.99 % and margin of error of 1% (48483 rows)
+ 2#-Clean and Process :
+                  - imported sample data  into excel
+                  - viewed and examined data  ( checked for unique values - missing values  - columns format)
+                  - Create a Jupyter Notebook and imported necessary libraries for analysis (pandas , numby , datetime,plotly,seaborn,matplotlib)
+                  - imported full data (6.5+ million row) into python and viewed basic informations (first 5 rows - columns types-data shape-unique values) 
+                  - converted "started_at" & "ended_at" into datetime 
+                  - calculated Trip Duration in minutes and stored it into "Trip_Duration"
+                  - created two columns for hour("Starting_hour","Ending_hour") and reformatted the old ones into date only("started_at","ending_at")
+                  - removed "_" from rideable_type's string 
+                  - filled all remaining NA values with "No Record" (all of them in geographical related columns) 
+                  - dropped columns that has 0 or less duration and distance as values 
+                  - calculated trip Distance using Haversine Method using "lat" and "lng" columns 
+                  - created a year , month and a day column 
+3#-analyzing the data  : 
+                  -created visualizations and tables using python and tableau 
+                  - created "speed" metric using tableau calculated field 
+                  - 4 used measures for the visualizations are : total rides - average trip duration - average distance - average speed
+                  - static measured columns are : rideable type , (year,month,day,hour) ,(start & end adress) 
+                  - created a paremeter for the 4 measures in tableau 
+                  - created a clean and fully controlled comparison dashboard to compare casual and member type rider
+                  - summarized insights and keyfindings 
+                  - answered Questions and recommened solutions to drive the marketing program 
+4#-communicate and share findings : 
+                  - Presented finding through a very cleaned and organized powerpoint slider                  
+                  - Documented all steps of analysis 
+                  - presented the data in a metadata folder
+                  - uploaded the project into  a portfolio and presented them in a organized manner 
+       
+
